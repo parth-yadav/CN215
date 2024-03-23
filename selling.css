@@ -5,7 +5,11 @@
     --hoverTextColor:rgb(244, 51, 151);
     --textColor : rgb(87, 85, 85);
   }
-  
+  .logoo{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+  }
   
   body{
     margin: 0;
@@ -247,7 +251,7 @@
     .Productsback{
       height: 450px;
       display: flex;   
-      background-color: aqua;
+      background-color:white;
       /* justify-content: center; Horizontally center the items */
       align-items: center;
     }
@@ -276,6 +280,8 @@
     .prodd{
       font-size: larger;
       font-size: 20px;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
   
   
@@ -555,9 +561,9 @@
   }
 
   .prodadder{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     height: 400px;
-    width : 800px;
+    /* width : 600px; */
     padding:20px;
   }
 
@@ -585,6 +591,7 @@
 
   .catinfo{
     height: fit-content;
+    text-align:right;
   }
 
   .lcatinfo{

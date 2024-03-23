@@ -6,6 +6,12 @@
   --textColor : rgb(87, 85, 85);
 }
 
+.logoo{
+  height: 90px;
+  width: 90px;
+  align-items: center;
+}
+
 
 body{
   margin: 0;
@@ -247,7 +253,7 @@ nav ul li:hover .subMenu{
   .Productsback{
     height: 450px;
     display: flex;   
-    background-color: aqua;
+    background-color: white;
     /* justify-content: center; Horizontally center the items */
     align-items: center;
   }

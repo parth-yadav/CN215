@@ -12,7 +12,13 @@ body{
     background: url('123456.jpg')no-repeat;
     background-size: cover;
     background-position: center;
+
 }
+.logoo{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+  }
 header{
     position: fixed;
     top: 0;

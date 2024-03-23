@@ -8,7 +8,7 @@
     <title>Online Shopping Site </title>
     <!--fevicon icon-->
     <!-- <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/80/Meesho_Logo_Full.png" /> -->
-    <link rel="stylesheet" href="seller.css" />
+    <link rel="stylesheet" href="selling.css" />
     <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
@@ -164,9 +164,9 @@
     <!--lowest prices-->
     <div class="lowestpriceContainer">
         <div class="lowestPrice_text">
-            <h1 class="hello">Hello</h1>
-            <h1>User</h1>
-            <div class="lowestPriceWhay">
+            <h1 class="hello">Ready? </h1>
+            <h1>to show your creativity to world</h1>
+            <!-- <div class="lowestPriceWhay">
                 <div class="lowestPriceItem">
                     <div class="lowestPrice_icon">
                         <img src="https://images.meesho.com/images/pow/freeDelivery.svg" />
@@ -186,18 +186,22 @@
                     </div>
                     <p>Easy Returns</p>
                 </div>
-            </div>
+            </div> -->
 
             <button class="downloadApp_contianer">
                 <div class="downloadAppIcon">
                     <i class="fa-solid fa-wallet"></i>
                 </div>
-                <p>Upload Item to sell</p>
+                <p><label for="inputfile" > Item to sell</label></p>
             </button>
+            <input type = "file" accept="image/jpeg, image/png, image/jpg" id="inputfile" class="givefile">
 
         </div>
-        <div class="lowestPrice_image">
-            <img src="https://images.meesho.com/images/marketing/1631722939962.webp" />
+        <div class="prodadder">
+            <div class="addcard">
+            <img id="prodim3" class="prodim3" src="pots.png" alt="Image Description">
+            </div>
+
         </div>
     </div>
 
@@ -214,7 +218,7 @@
         <br>
         <div class="Productsback">
             <div class = "productsfront">
-                <img class="prodim" src="pots.png" alt="Image Description">
+                <img id="prodim" class="prodim" src="pots.png" alt="Image Description">
                 <div>
                 <p class="prodd">Category: POTTERY </p>
                 <P class = "prodd">Price :</P>
@@ -390,7 +394,7 @@
 
 
 
-    <script src="seller.js" type="module"></script>
+    <script src="selling.js" type="module"></script>
 </body>
 
 </html>
